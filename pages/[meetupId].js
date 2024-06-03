@@ -1,15 +1,9 @@
-import { Fragment } from "react";
+
+import MeetupDetail from "../../components/meetups/MeetupDetail";
 
 function MeetUpDetails() {
   return (
-    <Fragment>
-        <div>
-            <h1>Meetup Details Page</h1>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Meeting_Place.jpg/800px-Meeting_Place.jpg" alt="A meetup" />
-            <p>Meetup description</p>
-            <address>Meetup address</address>
-        </div>
-    </Fragment>
+    <MeetupDetail image="https://via.placeholder.com/400" alt="meetup" address="address 5" description="meet up desc" ></MeetupDetail>
   );
 }   
 
