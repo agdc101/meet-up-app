@@ -26,3 +26,13 @@ export default function HomePage(props) {
     </>
   );
 }
+
+// export async function getStaticProps() {
+//   // fetch data from an API! // executes on the server/during build
+//   return {
+//     props: {
+//       meetups: dummy_meetups
+//     },
+//     revalidate: 10
+//   };
+// }
